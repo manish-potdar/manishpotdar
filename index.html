@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="icon" rel="icon" href="icons/manishlogo.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+    <title>Portfolio | Manish Potdar</title>
+</head>
+<body>
+
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <a href="" id="myName">Manish Potdar</a>
+            <a href="#contact">Contact</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="sections" id="about">
+            <h2>A little about me,</h2>
+        </div>
+        <div class="flex-container">
+            <div class="flex-left">
+                <img src="images/manish.jpeg" alt="Manish">
+            </div>
+            
+            <div class="flex-right">
+                <p>
+                    Hi, Myself Manish Potdar. <br>
+                    I am currently pursuing my Bachelor's Degree <i class="fa fa-graduation-cap" style="font-size:24px;"></i> in <br>
+                    <i class='fa fa-laptop' style='font-size:24px;'></i> Computer Engineering at Sinhgad College Of Engineering, Pune.
+                </p>
+            </div>
+            
+        </div>
+    
+        <div class="sections" id="skills">
+            <h2>Technologies I'm familier with,</h2>
+        </div>
+        <div class="section-skills">
+            <ul class="icons">
+                <li id="python"><a href="https://www.python.org/"><img src="icons/python.png"></a>Python</li>
+                <li id="cpp"><a href="https://www.cplusplus.com/"><img src="icons/cpp.png"></a>C++</li>
+                <li id="c"><img src="icons/c.png">C</li>
+                <li id="html"><a href="https://html.com/"><img src="icons/html.png"></a>HTML</li>
+                <li id="css"><img src="icons/css.png">CSS</li>
+            </ul>
+        </div>
+        
+        <div class="sections" id="projects">
+            <h2>Projects that I've worked on,</h2>
+        </div>
+        <div class="section-projects">
+            <p>Coming soon.....</p>
+        </div>
+    
+        <div class="sections" id="contact">
+            <h2>Contact me,</h2>
+        </div>
+        <div class="section-contact">
+            <form action="mailto:potdarmanish0@gmail.com" method="POST" enctype="text/plain">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" spellcheck="false" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" spellcheck="false" placeholder="Your last name..">
+
+                <label for="e-mail">Email</label>
+                <input type="text" name="mail" spellcheck="false" placeholder="E-mail">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" spellcheck="false" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div>Copyright &copy; Manish Potdar</div>
+        <div>
+            <ul>
+                <li><a href="https://github.com/manish-potdar" target="_blank"><i class="fa fa-github" style="font-size: 24px; color: #FFFFFF;"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/manish-potdar-a936b61b2/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px; color:#FFFFFF;"></i></a></li>
+                <li><a href="https://www.facebook.com/manish.potdar.3998" target="_blank"><i class="fa fa-facebook-square" style="font-size: 24px; color: #FFFFFF;"></i></a></li>
+                <li><a href="https://twitter.com/ManishPotdar7" target="_blank"><i class="fa fa-twitter" style="font-size: 24px; color: #FFFFFF;"></i></a></li>
+            </ul>
+        </div>
+        
+
+    </footer>
+    
+</body>
+</html>
